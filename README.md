@@ -1,17 +1,27 @@
 # profile_app
+Step 1: Create a new Flutter project.
+ flutter create --platforms=android,ios profile_screen
+Creating project webview_in_flutter...
+Running "flutter pub get" in profile_screen...               1,728ms
+Wrote 73 files.
 
-A new Flutter project.
+All done!
+In order to run your application, type:
 
-## Getting Started
+  $ cd profile_screen
+  $ flutter run
 
-This project is a starting point for a Flutter application.
+Your application code is in profile_screen/lib/main.dart.
 
-A few resources to get you started if this is your first Flutter project:
+Step2: Add the following dependencies to your project:
+  webview_flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Step 3: Create User Interface (Profile Screen)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# task1_profile_app
+Step 4: Create a ElevatedButton widget.
+
+Step 5: Create a web_view_container widget and initialize the controller.
+
+Step 6: Set the child property of the ElevatedButton widget to the text or image you want to use for the button.
+
+Step 7: Set the onPressed property of the ElevatedButton widget to a function that calls the loadRequest Uri.parse() method of the webview_flutter package (i.e. WebViewContainer widget).
